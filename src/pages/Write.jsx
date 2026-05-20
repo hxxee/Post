@@ -1,6 +1,6 @@
 import React from "react";
 import { useEffect, useState } from "react";
-import { useNavigate, useParams } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 import * as W from "../styles/StyledWrite";
 
 const Write = () => {
