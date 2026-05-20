@@ -10,10 +10,6 @@ const Main = ({ dataList }) => {
     navigate(`/write`);
   };
 
-  const post = postId
-    ? dataList.find((item) => item.postId === parseInt(postId))
-    : null;
-
   return (
     <M.Container>
       <M.Header>
