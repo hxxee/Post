@@ -1,5 +1,4 @@
 import React from "react";
-import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import * as M from "../styles/StyledMain";
 
@@ -7,9 +6,6 @@ const Main = ({ dataList }) => {
   const navigate = useNavigate();
   const { postId } = useParams();
 
-  const goBack = () => {
-    navigate(`/`);
-  };
   const goWrite = () => {
     navigate(`/write`);
   };
